@@ -1,1 +1,1 @@
-# A crappy script to check how much lines and characters of code you have written
+# Check how much lines and characters of code you have written, are you autistic?
