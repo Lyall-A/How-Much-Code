@@ -8,7 +8,7 @@ const exclusions = [
 
 const extensions = process.argv[2]?.split(" ").filter(i => i);
 const depth = process.argv[3] ? parseInt(process.argv[3]) : null;
-const dirPath = process.argv[4] || __dirname;
+const dirPath = process.argv[4] || process.cwd();
 
 console.log("Finding files");
 const files = getFiles(dirPath);
